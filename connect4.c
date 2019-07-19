@@ -10,7 +10,7 @@
 
 int SecondPlacePrize(int prize1, int prize2, int prize3)
 {
-    // This function will take three input integers and returns the middle
+        // This function will take three input integers and returns the middle
 	// value(i.e.the 2nd place prize).
 	int sum = prize1 + prize2 + prize3;
 	double mean = sum / 3.0;
@@ -32,7 +32,7 @@ int SecondPlacePrize(int prize1, int prize2, int prize3)
 	if ((d2 <= d1) && (d2 <= d3)) {
 		return prize2;
 	}
-    if ((d3 <= d1) && (d3 <= d2)) {
+        if ((d3 <= d1) && (d3 <= d2)) {
 		return prize3;
 	}
 	return 0;
@@ -82,7 +82,7 @@ double MedianAbility(double abilities[], int length)
 {
 	// This funciton will find the median number from a sequence of numbers.
 	// This function takes two inputs: an array of double values(representing the estimated ability scores)
-    // and the length of the array.
+        // and the length of the array.
 	// The output of this function will be the median ability score.
 	
 	
@@ -148,7 +148,7 @@ void AddMoveToBoard(int board[MAX_SIZE][MAX_SIZE], int size, char side, int move
 	// The inputs to the function will be
 	// the underlying 2 - dimensional array, the size of the board(which will be between 4 and 10 inclusive),
 	// the side the user wants to drop the token into(which will be a character, and
-	// will either be ¡®N¡¯, ¡®E¡¯, ¡®W¡¯ or ¡®S¡¯), the row or column the user wants to place the token into
+	// will either be Â¡Â®NÂ¡Â¯, Â¡Â®EÂ¡Â¯, Â¡Â®WÂ¡Â¯ or Â¡Â®SÂ¡Â¯), the row or column the user wants to place the token into
 	// (which will be an integer between 0 and size - 1), which player is placing the token(either 1 or 2),
 	// and two pointers(which will be used to record the final position at which the token comes to rest).
 
@@ -450,7 +450,7 @@ void GetMoveBot2(int board[MAX_SIZE][MAX_SIZE], int size, int player, char *side
 	// this function takes the current board(and size) as input,
 	// the size of the board(which will be between 4 and 10 inclusive),
 	// the side the bot wants to drop the token into(which will be a character, and
-	// will either be ¡®N¡¯, ¡®E¡¯, ¡®W¡¯ or ¡®S¡¯), and 
+	// will either be Â¡Â®NÂ¡Â¯, Â¡Â®EÂ¡Â¯, Â¡Â®WÂ¡Â¯ or Â¡Â®SÂ¡Â¯), and 
 	// the move the bot will go(which is an integer, and between 0 and size-1 inclusive).
 
 
@@ -561,7 +561,7 @@ void GetMoveBot1(int board[MAX_SIZE][MAX_SIZE], int size, int player, char *side
 	// this function takes the current board(and size) as input,
 	// the size of the board(which will be between 4 and 10 inclusive),
 	// the side the bot wants to drop the token into(which will be a character, and
-	// will either be ¡®N¡¯, ¡®E¡¯, ¡®W¡¯ or ¡®S¡¯), and 
+	// will either be Â¡Â®NÂ¡Â¯, Â¡Â®EÂ¡Â¯, Â¡Â®WÂ¡Â¯ or Â¡Â®SÂ¡Â¯), and 
 	// the move the bot will go(which is an integer, and between 0 and size-1 inclusive).
 
 
